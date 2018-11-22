@@ -20,6 +20,7 @@ namespace AnotherHelloWorld
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show(this, "Hello world", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Information);
+            this.Close();
         }
     }
 }
